@@ -1,0 +1,49 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image:url("./suryaclinic.jpeg") ;
+  background-size: cover;
+}
+
+.login-f-container {
+  background-color: #f9f9f9;
+  margin-top: 150px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width:350px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
